@@ -1,1 +1,505 @@
-warn("script under repair all scripts are infected suddenly this will take 3 days or more thank you for your report we will fix it")
+--[[Hello?]] return(function(...)
+local z,db,Y=type,pairs,getmetatable;
+local jb,Mc,dd,pc,la,M,Xc,_,Hc,Lb,hd,N,k,Sc,Tc,ea,Ub,yc
+ea={}
+dd,pc={[-26519]=-19535,[14818]=-29072},function(b)
+    return dd[b+-7482]
+end
+Hc={[-29072]=function()
+    Sc,N,hd,k,la,yc,Ub,Lb=string.unpack,string.sub,string.byte,bit32 .lshift,bit32 .rshift,bit32 .band,table.concat,{};
+    M=(function(V)
+        local Za,Vc,ia,ha,rb
+        ia={}
+        ha,Za={[29624]=-11046,[-15191]=8641,[-6003]=27858,[-6651]=-8116,[-14685]=-11984,[-12483]=3914,[-4434]=-8116,[-14007]=22171,[10422]=-23193,[-19784]=27152,[-12191]=24520,[15268]=11044,[-20842]=27152,[9089]=-8116,[19554]=-28042,[-25056]=32559,[-14716]=-8452,[13776]=24520,[14774]=-11703,[32434]=-20849,[16146]=22171,[-29290]=24520,[11266]=-32022,[-5181]=16082,[-24630]=27152,[-8303]=10233,[28599]=10233,[23316]=-32052,[5855]=17352,[-20119]=-8116,[23328]=-8116,[823]=10233,[8849]=-8116,[4575]=27858,[-12793]=-8116,[-12135]=-11984,[18205]=-19925,[-3750]=-11703,[-29468]=10233,[6067]=27152,[-13780]=27152,[25409]=-11984,[25804]=10233},function(J)
+            return ha[J+5006]
+        end
+        Vc={[27858]=function()
+            if(ia[1]>=0 and ia[2]>ia[3])or((ia[1]<0 or ia[1]~=ia[1])and ia[2]<ia[3])then
+                rb=Za(20798)
+            else
+                rb=Za(-17489)
+            end
+        end,[10233]=function()
+            if ia[4]<=#V then
+                rb=Za(6260)
+            else
+                rb=Za(10262)
+            end
+        end,[16082]=function()
+            ia[5]=N(V,ia[4],ia[4])
+            ia[4]=ia[4]+1
+            rb=Za(-11657)
+        end,[-8116]=function()
+            ia[6]=la(ia[6],1)
+            if not(ia[5])then
+                rb=Za(-25848)
+                return true
+            else
+                rb=Za(18310)
+                return true
+            end
+            rb=Za(-24790)
+        end,[-32052]=function()
+            ia[7][#ia[7]+1]=ia[5]
+            ia[8]=N(ia[8]..ia[5],-ia[9])
+            rb=Za(1061)
+        end,[-23193]=function()
+            ia[10]=ia[2];
+            if ia[3]~=ia[3]then
+                rb=Za(23593)
+            else
+                rb=Za(-11009)
+            end
+        end,[27152]=function()
+            ia[2]=ia[2]+ia[1];
+            ia[10]=ia[2];
+            if ia[2]~=ia[2]then
+                rb=Za(-34474)
+            else
+                rb=Za(-431)
+            end
+        end,[3914]=function()
+            ia[5]=nil;
+            if yc(ia[6],1)~=0 then
+                rb=Za(-19722)
+                return true
+            else
+                rb=Za(13199)
+                return true
+            end
+            rb=Za(4083)
+        end,[-19925]=function()
+            if ia[4]+1<=#V then
+                rb=Za(-30062)
+                return true
+            end
+            rb=Za(18322)
+        end,[-8452]=function()
+            if ia[4]<=#V then
+                rb=Za(-10187)
+                return true
+            end
+            rb=Za(3843)
+        end,[-32022]=function()
+            ia[6]=hd(V,ia[4]);
+            ia[4]=ia[4]+1
+            ia[1],ia[2],ia[3]=1,136,(8)+135
+            rb=Za(5416)
+        end,[32559]=function()
+            ia[11]=Sc('>I2',V,ia[4]);
+            ia[4]=ia[4]+2
+            ia[12],ia[13]=#ia[8]-la(ia[11],ia[14]),yc(ia[11],(ia[15]-1))+ia[16]
+            ia[5]=N(ia[8],ia[12],ia[12]+ia[13]-1)
+            rb=Za(-25125)
+        end}
+        rb=Za(14548)
+        repeat
+            while true do
+                ia[17]=Vc[rb]
+                if ia[17]~=nil then
+                    if ia[17]()then
+                        break
+                    end
+                elseif rb==17352 then
+                    return ia[18]
+                elseif rb==24520 then
+                    ia[19]=12;
+                    ia[14],ia[9]=16-ia[19],k(1,ia[19]);
+                    ia[15],ia[16],ia[4],ia[7],ia[8]=k(1,ia[14]),3,1,{},'';
+                    rb=Za(-4183);
+                elseif rb==-28042 then
+                    ia[18]=Lb[V];
+                    if not(ia[18])then
+                        rb=Za(-17197)
+                        break
+                    else
+                        rb=Za(849)
+                        break
+                    end
+                    rb=24520
+                elseif rb==11044 then
+                    ia[20]=Ub(ia[7]);
+                    Lb[V]=ia[20]
+                    return ia[20]
+                end
+            end
+        until rb==2157
+    end);
+    jb='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+    Tc,Mc=string.gsub,string.char;
+    _=(function(va)
+        va=Tc(va,'[^'..jb..'=]','')
+        return(va:gsub('.',function(ab)
+            if(ab=='=')then
+                return''
+            end
+            local Fc,sa='',(jb:find(ab)-1)
+            for c=6,1,-1 do
+                Fc=Fc..(sa%2^c-sa%2^(c-1)>0 and'1'or'0')
+            end
+            return Fc;
+        end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(Nc)
+            if(#Nc~=8)then
+                return''
+            end
+            local Va=0
+            for i=1,8 do
+                Va=Va+(Nc:sub(i,i)=='1'and 2^(8-i)or 0)
+            end
+            return Mc(Va)
+        end))
+    end);
+    Xc=pc(-19037);
+    return true;
+end}
+Xc=pc(22300)
+repeat
+    while true do
+        ea[1]=Hc[Xc]
+        if ea[1]~=nil then
+            if ea[1]()then
+                break
+            end
+        end
+    end
+until Xc==-19535
+local P,Tb,ec,Zc,Bb,vb,ua,m,R,Ya,Pb,cb,Zb,ic,Wc,fa,_b,Oa,l,bd,id,Lc,mb,fc,Ac,eb,Aa,qa=type,pcall,error,tonumber,assert,select,setmetatable,string.format,string.unpack,string.sub,string.byte,string.char,table.move,table.pack,table.create,table.insert,table.concat,coroutine.create,coroutine.yield,coroutine.resume,coroutine.close,bit32 .bor,bit32 .bxor,bit32 .band,bit32 .btest,bit32 .rshift,bit32 .lshift,bit32 .extract
+local Vb,a,pb,Cc,pa,Ca,Pa,oa=function(bc)
+    return P(bc)=='number'
+end,function(Ta)
+    return P(Ta)=='string'
+end,function(ib)
+    return P(ib)=='boolean'
+end,function(Qa)
+    return P(Qa)=='function'
+end,{{8,5,false},{2,5,false},{0,2,true},{0,9,false},{8,2,true},{9,8,true},{10,7,true},{1,5,false},{1,9,false},{4,9,false},{7,0,true},{0,8,false},{10,8,true},{7,8,true},{7,5,false},{8,5,false},{2,5,false},{0,4,false},{5,4,false},{0,3,false},{9,8,false},{0,2,true},{6,0,true},{7,7,true},{9,6,true},{0,9,false},{7,6,false},{7,5,true},{9,2,false},{10,6,true},{9,5,false},{5,5,false},{7,0,false},{9,1,false},{4,5,false},{4,5,false},{9,4,false},{9,8,false},{6,9,false},{5,7,false},{0,0,false},{5,5,false},{10,1,true},{0,9,false},{7,2,false},{8,5,false},{10,9,false},{0,9,true},{1,5,false},{7,1,true},{2,5,false},{0,5,true},{4,9,false},{5,7,false},{10,5,false},{9,4,true},{5,9,false},{7,8,false},{2,0,true},{6,5,true},{8,9,false},{9,6,true},{8,5,true},{7,8,true},{7,8,true},{8,8,false},{5,6,true},{9,4,true},{8,1,true},{8,0,false},{0,2,false},{5,7,false},{7,8,false},{9,5,true},{5,0,false},{3,5,false},{8,6,false},{10,7,true},{7,2,false},{9,2,false},{1,0,true},{3,5,false},{5,9,true},{5,5,true},{0,8,true},{5,5,true},{5,6,false},{10,2,true},{8,4,true},{9,6,true},{10,4,false},{1,5,false},{8,5,false},{10,7,true},{2,5,false},{2,0,true},{0,6,false},{8,8,true},{8,6,false},{0,5,false},{9,9,false},{10,8,false},{1,5,false},{10,9,true},{7,1,true},{6,7,false},{5,1,false},{7,9,false},{8,5,true},{8,6,false},{7,1,true},{10,1,true},{4,5,false},{8,0,true},{8,6,true},{4,5,false},{5,2,false},{8,5,false},{1,9,false},{4,0,true},{9,8,true},{10,1,true},{5,5,false},{8,6,false},{10,5,false},{5,5,false},{0,5,false},{8,5,false},{10,4,false},{6,5,false},{6,5,false},{10,4,true},{2,0,true},{9,9,true},{5,1,true},{8,5,false},{4,5,false},{8,2,false},{0,2,true},{5,0,false},{4,5,true},{10,4,true},{2,5,false},{8,6,false},{9,4,true},{5,0,true},{4,5,false},{7,4,false},{3,5,false},{3,0,true},{10,6,true},{8,9,false},{5,9,false},{5,6,true},{8,5,false},{1,5,false},{1,5,false},{5,5,false},{7,2,false},{0,2,true},{10,2,true},{0,5,false},{7,0,false},{9,2,false},{0,2,true},{8,4,true},{10,2,true},{8,8,true},{0,4,false},{9,5,true},{0,7,true},{8,5,false},{5,9,false},{5,8,true},{8,5,false},{0,5,false},{0,2,false},{9,5,true},{7,8,false},{4,5,false},{10,6,false},{10,9,false},{8,4,true},{9,9,true},{8,7,false},{0,2,true},{5,8,false},{8,5,true},{5,6,false},{9,5,true},{4,5,false},{10,5,true},{7,1,true},{9,5,true},{8,7,false},{5,8,false},{8,5,false},{8,8,true},{8,9,false},{4,5,false},{8,5,false},{7,6,false},{8,7,false},{5,1,true},{8,5,true},{5,5,true},{9,7,true},{5,8,true},{9,7,true},{0,5,true},{7,1,false},{0,5,true},{4,5,false},{5,1,false},{8,5,false},{7,0,false},{10,8,false},{9,0,true},{8,2,true},{6,7,false},{0,7,false},{5,2,false},{8,6,true},{8,7,true},{10,4,false},{8,5,true},{9,0,true},{7,2,false},{6,9,false},{8,5,false},{7,5,false},{8,9,true},{4,9,false},{8,9,true},{0,7,true},{8,9,false},{7,6,true},{8,0,false},{8,0,true},{8,8,true},{8,5,true},{8,5,true},{8,1,true},{0,6,false},{7,5,false},{0,8,true},{7,1,false},{0,4,true},{1,5,false},{7,4,true},{10,0,true},{10,0,true},{1,9,false},{8,5,false},{7,6,true},{10,1,true}},-1,-2,{[17021]={},[16455]={}}
+local function Ua(r)
+    return if r<32768 then r else r-65536
+end
+local function Hb(kb)
+    return if kb<8388608 then kb else kb-16777216
+end
+local function aa(ya)
+    local tb=oa[16455][ya]
+    if tb then
+        return tb
+    end
+    local j,qb=ya,1
+    local function ad()
+        local Fa=R('B',j,qb)
+        qb=qb+1
+        return mb(Fa,228)
+    end
+    local function G()
+        local rc=R('<I4',j,qb)
+        qb=qb+4
+        return mb(rc,785611940)
+    end
+    local function A()
+        local f=R('<d',j,qb)
+        qb=qb+8
+        return f
+    end
+    local function ca(hb)
+        local Rc=R('c'..hb,j,qb)
+        qb=qb+hb
+        return Rc
+    end
+    local function Sb()
+        local X,Qb,wa,Z,o
+        Qb={}
+        Z,o={[26119]=-4569,[-6951]=30754,[9948]=4263,[6027]=30754,[-29343]=30754,[-24703]=4263,[10030]=4263,[-3966]=29402,[6861]=4263,[29422]=-12199,[21697]=-10339},function(_a)
+            return Z[_a+27523]
+        end
+        wa={[29402]=function()
+            Qb[1]=ad();
+            Qb[2]=Lc(Qb[2],Aa(fc(Qb[1],127),(Qb[3]-147)*7))
+            if not Ac(Qb[1],128)then
+                X=o(-5826)
+                return true
+            end
+            X=o(-56866)
+        end,[-10339]=function()
+            X=o(-20662)
+            return true
+        end,[10850]=function()
+            if(Qb[4]>=0 and Qb[5]>Qb[6])or((Qb[4]<0 or Qb[4]~=Qb[4])and Qb[5]<Qb[6])then
+                X=o(-17493)
+            else
+                X=o(-31489)
+            end
+        end,[30754]=function()
+            Qb[5]=Qb[5]+Qb[4];
+            Qb[3]=Qb[5];
+            if Qb[5]~=Qb[5]then
+                X=o(-52226)
+            else
+                X=10850
+            end
+        end,[-4129]=function()
+            Qb[3]=Qb[5];
+            if Qb[6]~=Qb[6]then
+                X=o(-17575)
+            else
+                X=10850
+            end
+        end}
+        X=o(-1404)
+        repeat
+            while true do
+                Qb[7]=wa[X]
+                if Qb[7]~=nil then
+                    if Qb[7]()then
+                        break
+                    end
+                elseif X==-4569 then
+                    Qb[2]=0;
+                    Qb[6],Qb[5],Qb[4]=(4)+147,147,1
+                    X=-4129
+                elseif X==4263 then
+                    return mb(Qb[2],2102528314)
+                end
+            end
+        until X==222
+    end
+    local function Kb()
+        local Ob,Nb,La,nb,T
+        Ob={}
+        La,Nb={[-32480]=20186,[-25479]=6698,[8681]=30839,[10842]=7585,[-13837]=20186,[-2805]=-24888},function(kd)
+            return La[kd- -4021]
+        end
+        T={[20186]=function()
+            nb=Nb(-6826);
+            return true;
+        end}
+        nb=Nb(6821)
+        repeat
+            while true do
+                Ob[1]=T[nb]
+                if Ob[1]~=nil then
+                    if Ob[1]()then
+                        break
+                    end
+                elseif nb==7585 then
+                    Ob[2]=Sb();
+                    if not(Ob[2]==0)then
+                        nb=Nb(4660)
+                        break
+                    else
+                        nb=Nb(-29500)
+                        break
+                    end
+                    nb=20186
+                elseif nb==6698 then
+                    return''
+                elseif nb==30839 then
+                    return ca(Ob[2])
+                end
+            end
+        until nb==-24888
+    end
+    local function Ea(Uc)
+        local _c,da,Bc,zb,gb
+        zb={}
+        gb,_c={[9428]=-6252,[-22690]=-6252,[7750]=22748,[-1016]=-6252,[-11916]=-36,[-3810]=-23122,[-22925]=-27914,[13637]=-6252,[-27656]=18671,[30491]=-36,[-16278]=15123,[-15233]=12783,[-31278]=-6252,[21889]=-3934,[21751]=-4750,[21759]=-6252,[31572]=-20774,[24240]=-5249,[25707]=7092,[22651]=-6252,[20316]=22954,[-13738]=-3934,[10538]=13564,[13298]=-36,[15125]=-6252,[-841]=12783,[-16125]=-6252,[-31993]=12783,[2311]=-9957,[-8624]=-6252,[17981]=-3934,[2392]=-6252,[6324]=-6252},function(fd)
+            return gb[fd+-28874]
+        end
+        Bc={[-9957]=function()
+            zb[1][-26696]=fc(eb(zb[2],8),255)
+            zb[1][-3278]=fc(eb(zb[2],16),255)
+            zb[1][-10036]=fc(eb(zb[2],24),255)
+            da=_c(6184)
+        end,[-20774]=function()
+            zb[1][-26696]=fc(eb(zb[2],8),255)
+            zb[1][-10036]=fc(eb(zb[2],16),255)
+            zb[1][-3278]=fc(eb(zb[2],24),255)
+            da=_c(50633)
+        end,[22954]=function()
+            zb[1][-3278]=fc(eb(zb[2],8),255)
+            zb[1][-26696]=fc(eb(zb[2],16),255)
+            zb[1][-10036]=fc(eb(zb[2],24),255)
+            da=_c(27858)
+        end,[-23122]=function()
+            zb[3]=fc(eb(zb[2],8),16777215);
+            zb[1][-31721]=zb[3]
+            zb[1][18230]=Hb(zb[3])
+            da=_c(35198)
+        end,[-27914]=function()
+            if not(zb[4]==5)then
+                da=_c(36624)
+                return true
+            else
+                da=_c(60446)
+                return true
+            end
+            da=_c(-2404)
+        end,[18671]=function()
+            zb[5]=G();
+            zb[1][3455]=zb[5];
+            fa(Uc,{})
+            da=_c(13641)
+        end,[-4750]=function()
+            zb[1][-26696]=fc(eb(zb[2],8),255)
+            zb[3]=fc(eb(zb[2],16),65535)
+            zb[1][-18027]=zb[3]
+            zb[1][-32214]=Ua(zb[3])
+            da=_c(43999)
+        end,[22748]=function()
+            if not(zb[4]==8)then
+                da=_c(31266)
+                return true
+            else
+                da=_c(50625)
+                return true
+            end
+            da=_c(51525)
+        end,[15123]=function()
+            zb[1][-3278]=fc(eb(zb[2],8),255)
+            zb[1][-10036]=fc(eb(zb[2],16),255)
+            zb[1][-26696]=fc(eb(zb[2],24),255)
+            da=_c(12749)
+        end}
+        da=_c(54581)
+        repeat
+            while true do
+                zb[6]=Bc[da]
+                if zb[6]~=nil then
+                    if zb[6]()then
+                        break
+                    end
+                elseif da==-6252 then
+                    if not(zb[7])then
+                        da=_c(-3119)
+                        break
+                    else
+                        da=_c(1218)
+                        break
+                    end
+                    da=12783
+                elseif da==7092 then
+                    zb[2]=G();
+                    zb[8]=fc(zb[2],255);
+                    zb[9]=pa[zb[8]+1];
+                    zb[4],zb[10],zb[7]=zb[9][1],zb[9][2],zb[9][3];
+                    zb[1]={[1820]=0,[-32214]=0,[11231]=0,[-21928]=0,[-3278]=0,[16496]=zb[10],[3455]=0,[-31721]=0,[-23686]=zb[8],[18230]=0,[-15955]=0,[25806]=0,[7566]=nil,[-26696]=0,[-18027]=0,[-10036]=0};
+                    fa(Uc,zb[1])
+                    if zb[4]==1 then
+                        da=_c(49190)
+                        break
+                    elseif zb[4]==4 then
+                        da=_c(12596)
+                        break
+                    elseif zb[4]==2 then
+                        da=_c(31185)
+                        break
+                    elseif not(zb[4]==0)then
+                        da=_c(5949)
+                        break
+                    else
+                        da=_c(25064)
+                        break
+                    end
+                    da=-6252
+                elseif da==12783 then
+                    return zb[7]
+                end
+            end
+        until da==-644
+    end
+    local function Eb(ma,ja)
+        local h,B,Da,ra,Rb
+        Da={}
+        h,B={[86]=30815,[-24001]=29416,[-32740]=24635,[-842]=30545,[31864]=30815,[28737]=30815,[-31281]=30815,[23168]=30815,[-21928]=-19947,[-25363]=30815,[28593]=-8294,[-4397]=30815,[-26782]=30815,[-20080]=-3802,[18863]=-15656,[13507]=-25868,[-29092]=-12793,[1477]=29416,[-32167]=30815,[-32397]=3880,[-27679]=-25399},function(Yc)
+            return h[Yc-15842]
+        end
+        ra={[24635]=function()
+            ma[11231]=ja[ma[3455]+1]
+            Rb=B(39010)
+        end,[30545]=function()
+            if Da[1]==2 then
+                Rb=B(-16555)
+                return true
+            end
+            Rb=B(-9521)
+        end,[-25868]=function()
+            Da[1]=ma[16496];
+            if Da[1]==0 then
+                Rb=B(-16898)
+                return true
+            elseif Da[1]==3 then
+                Rb=B(34705)
+                return true
+            elseif not(Da[1]==6)then
+                Rb=B(15000)
+                return true
+            else
+                Rb=B(44435)
+                return true
+            end
+            Rb=30815
+        end,[-15656]=function()
+            ma[11231]=ja[ma[18230]+1]
+            Rb=B(-10940)
+        end,[-19947]=function()
+            Da[2],Da[3]=fc(eb(Da[4],10),1023),fc(eb(Da[4],0),1023);
+            ma[1820]=ja[Da[2]+1]
+            ma[-15955]=ja[Da[3]+1]
+            Rb=B(11445)
+        end,[-3802]=function()
+            Da[2]=fc(eb(Da[4],10),1023);
+            ma[1820]=ja[Da[2]+1]
+            Rb=B(-16325)
+        end,[30815]=function()
+            Rb=B(-11837);
+            return true;
+        end,[3880]=function()
+            Da[4]=ma[3455];
+            Da[5],Da[6]=eb(Da[4],30),fc(eb(Da[4],20),1023);
+            ma[11231]=ja[Da[6]+1]
+            ma[25806]=Da[5]
+            if Da[5]==2 then
+                Rb=B(-4238)
+                return true
+            elseif Da[5]==3 then
+                Rb=B(-6086)
+                return true
+            end
+            Rb=B(47706)
+        end,[-8294]=function()
+            ma[11231]=ja[ma[-32214]+1]
+            Rb=B(44579)
+        end}
+        Rb=B(29349)
+        repeat
+            while true do
+                Da[7]=ra[Rb]
+                if Da[7]~=nil then
+                    if Da[7]()then
+                        break
+                    end
+                end
+            end
+        until Rb==-25399
+    end
+    local function Sa()
+        local Xb,p,Qc,Na,gd
+        Na={}
+        Qc,Xb={[-31827]=8210,[30865]=13026,[20704]=21937,[10120]=27906,[10185]=-7135,[5413]=19485,[-11151]=-21242,[-5763]=-24467,[23970]=21937,[28860]=24141,[13379]=13835,[-5964]=-19966,[28958]=6719,[-7273]=-24467,[32421]=-24467,[22341]=7733,[6926]=29410,[-15904]=12516,[16639]=-7615,[1872]=-24467,[-30382]=32204,[13417]=14870,[-31617]=32204,[14004]=22331,[14342]=27906,[-2375]=10646,[-32311]=-28641},function(s)
+            return Qc[s+10256]
+        end
+        gd={[29410]=function()
+            if(Na[1]>=0 and Na[2]>Na[3])or((Na[1]<0 or Na[1]~=Na[1])and Na[2]<Na[3])then
+                p=22331
+            else
+                p=Xb(3161)
+            end
+        end,[13026]=function()
+            Na[4]=Na[4]+Na[5];
+            Na[6]=Na[4];
+            if Na[4]~=Na[4]then
+                p=22328
+            else
+                p=Xb(4086)
+            end
+        end,[24141]=function()
+            if(Na[7]>=0 and Na[8]>Na[9])or((Na[7]<0 or Na[7]~=Na[7])and Na[
